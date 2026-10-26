@@ -1,0 +1,36 @@
+# Terraform - Dependencies
+**/.terraform/*
+
+# Terraform - State files
+*.tfstate
+*.tfstate.*
+
+# Terraform - Variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform - Plans
+*.tfplan
+*.tfplan.json
+
+# Terraform - Crash logs
+crash.log
+crash.*.log
+
+# Terraform - Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials
+*.pem
+gha-creds-*.json
+
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
